@@ -1,17 +1,39 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../assets/hero.jpg');
+    background: url('../../assets/hero.png');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.crane-vectors{
+    /* background: #fff; */
+    width: 300px;
+    padding-right: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
 }
+.image{
+    padding: 10px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+.trolley{
+    max-width: 50%;
+}
+
 .hero-text{
-    text-align: center;
+    text-align: left;
     max-width: 800px;
+    /* max-width: 600px; Reduce max-width to prevent pushing */
+    margin-right: 20px; /* Adjust margin to control spacing */
+    /* padding-right: 500px; */
 }
 
 .hero-text h1{
