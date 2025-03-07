@@ -1,5 +1,8 @@
 import React from 'react'
 import './Hero.css'
+import crane from '../../assets/CraneVectors/Crane.png';
+import trolley from '../../assets/CraneVectors/Trolley.png';
+import Goiliath from '../../assets/CraneVectors/Goiliath.png';
 
 const Hero = () => {
   return (
@@ -12,9 +15,9 @@ const Hero = () => {
         
       </div>
       <div className='crane-vectors'>
-        <img className='image' src="src\assets\CraneVectors\Girder.png" alt=""/>
-        <img className='image trolley' src="src/assets/CraneVectors/Trolley.svg" alt="" />
-        <img className='image' src="src\assets\CraneVectors\Goliath Crane.svg" alt="" />
+        <img className='image' src={crane} alt=""/>
+        <img className='image trolley' src={trolley} alt="" />
+        <img className='image' src={Goiliath} alt="" />
       </div>
     </div>
   )
