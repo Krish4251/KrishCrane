@@ -27,9 +27,13 @@ const Navbar = () => {
 
           <li><Link to='products' smooth={true} offset={-260} duration={500}>Products</Link></li>
 
+          <li><Link to='services' smooth={true} offset={-150} duration={500}>Services</Link></li>
+
+          <li><Link to='careers' smooth={true} offset={-150} duration={500}>Careers</Link></li>
+
           <li><Link to='about' smooth={true} offset={-150} duration={500}>About us</Link></li>
           
-          <li><Link to='plant' smooth={true} offset={-260} duration={500}>Plant</Link></li>
+          {/* <li><Link to='plant' smooth={true} offset={-260} duration={500}>Plant</Link></li> */}
 
           <li><Link to='contact' smooth={true} offset={-260} duration={500}><button className='btn'>Contact</button></Link></li>
 
