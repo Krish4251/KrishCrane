@@ -11,14 +11,12 @@ const Hero = () => {
         <h1>Precision. <br/>Power. <br/>Performance.</h1>
         <p>Leading the Way in Crane Manufacturing</p>
         <button className='btn'>Explore More</button>
-        
-        
       </div>
-      <div className='crane-vectors'>
+      {/* <div className='crane-vectors'>
         <img className='image' src={crane} alt=""/>
         <img className='image trolley' src={trolley} alt="" />
         <img className='image' src={Goiliath} alt="" />
-      </div>
+      </div> */}
     </div>
   )
 }

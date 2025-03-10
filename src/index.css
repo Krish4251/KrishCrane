@@ -20,9 +20,9 @@ a{
   padding-right: 10%;
 }
 .btn{
-  background: #ffb630;
-  color: #212121;
-  padding:14px 25px;
+  background: #3d5aa9;
+  color: #fff;
+  padding:10px 20px;
   font-size: 16px;
   border-radius: 30px;
   cursor: pointer;
@@ -31,12 +31,12 @@ a{
 }
 
 .dark-nav{
-  background: #FFF38A;
+  background: #fff;
   transition: 0.5;
 }
 
 .btn.dark-btn{
-  background: #ffb630;
+  background: #3d5aa9;
   color: #fff;
 }
 

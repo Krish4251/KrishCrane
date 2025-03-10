@@ -9,8 +9,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.crane-vectors{
-    /* background: #fff; */
+/* .crane-vectors{
     width: 300px;
     padding-right: 10%;
     display: flex;
@@ -26,7 +25,7 @@
 }
 .trolley{
     max-width: 50%;
-}
+} */
 
 .hero-text{
     text-align: left;
