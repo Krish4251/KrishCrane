@@ -10,15 +10,21 @@
   border-radius: 10px;
   display: block;
 }
+.hov:hover {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  z-index: 10;
+}
 
 .product {
   margin: 1%;
   flex-basis: 31%;
   position: relative;
+  width: fit-content;
 }
 .caption {
   border-radius: 10px;
-  border: 5px solid #3b549e;
   position: absolute;
   top: 0;
   left: 0;
@@ -32,13 +38,33 @@
   color: #fff;
   cursor: pointer;
   opacity: 0;
+  z-index: 1000;
   padding-top: 70%;
   transition: 0.4s;
 }
 
-.product:hover .caption {
+.base-image,
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.base-image {
+  position: relative;
+  z-index: 1;
+}
+
+.hover-image {
+  opacity: 0;
+  z-index: 2;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.product:hover .hover-image {
   opacity: 1;
-  padding-top: 0;
 }
 
 /* Media Query */
