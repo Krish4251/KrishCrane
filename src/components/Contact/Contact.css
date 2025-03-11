@@ -1,18 +1,32 @@
 .contact{
+    /* background: #333; */
     margin: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding:10px;
     max-width: 90%;
     display: flex;
     align-content: center;
     justify-content: space-between;
 }
 
+.contact-bg{
+    background: #333;
+    width: 100vw;  /* Full viewport width */
+    position: relative;
+    left: 0;
+    right: 0;
+    max-width: 100vw !important;
+    /* margin: 1000px; */
+}
+
 .contact-col{
     flex-basis: 48%;
-    color: #000f38;
+    color: #fff;
 }
 
 .contact-col h3{
-    color: #000f38;
+    color: #fff;
     font-weight: 500;
     font-size: 25px;
 }
@@ -31,7 +45,7 @@
 .contact form input, .contact form textarea{
     display: block;
     width: 100%;
-    background: #EBECFE;
+    background: #f5f5f5;
     padding: 15px;
     border: 0;
     outline: 0;

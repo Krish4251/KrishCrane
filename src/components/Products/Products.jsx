@@ -24,6 +24,7 @@ const Products = () => {
             <p>Goliath Crane</p>
         </div>
       </div>
+      <button className='btn'>More</button>
     </div>
   )
 }

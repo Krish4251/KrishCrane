@@ -13,6 +13,8 @@
 }
 
 .product{
+    /* padding : 1%; */
+    margin: 1%;
     flex-basis: 31%;
     position: relative;
 }

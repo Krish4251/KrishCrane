@@ -28,8 +28,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
-        <div className="contact-col">
+    <div className="contact-bg">
+      <div className="contact">
+      <div className="contact-col">
             <h3>Send us a message</h3>
             <p>Feel free to reach out through our contact form or find our contact information below. Your inquiries, project requirements, and feedback are valuable to us as we strive to deliver top-quality crane solutions and exceptional service.</p>
             <ul>
@@ -46,10 +47,13 @@ const Contact = () => {
                 <input type="tel" name='phone' placeholder='Enter your phone number'/>
                 <label>Write your message here</label>
                 <textarea name='message' rows='6' placeholder='Write your message here' required></textarea>
-                <button type='submit' className='btn dark-btn'>Submit now</button>
+                <button type='submit' className='btn'>Submit now</button>
             </form>
             <span>{result}</span>
         </div>
+
+      </div>
+        
     </div>
   )
 }

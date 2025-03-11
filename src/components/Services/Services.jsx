@@ -1,27 +1,30 @@
 import React from 'react'
 import './Services.css'
-
+import Service_1 from '../../assets/Service_1.png'
+import Service_2 from '../../assets/Service_2.png'
+import Service_3 from '../../assets/Service_3.png'
 const Services = () => {
   return (
     <div className='services'>
           <div className="service">
-            <img src={Product_1} alt="" />
+            <img src={Service_1} alt="" />
             <div className="caption">
-                <p>Crane 1</p>
+                <p>Repair</p>
             </div>
           </div>
           <div className="service">
-            <img src={Product_2} alt="" />
+            <img src={Service_2} alt="" />
             <div className="caption">
-                <p>Crane 2</p>
+                <p>Service</p>
             </div>
           </div>
           <div className="service">
-            <img src={Product_3} alt="" />
+            <img src={Service_3} alt="" />
             <div className="caption">
-                <p>Crane 3</p>
+                <p>Checkup</p>
             </div>
           </div>
+          <button className='btn'>More</button>
         </div>
   )
 }

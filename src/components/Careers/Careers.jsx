@@ -4,7 +4,7 @@ import './Careers.css'
 const Careers = () => {
   return (
     <div>
-      
+        
     </div>
   )
 }

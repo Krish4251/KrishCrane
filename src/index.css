@@ -29,17 +29,13 @@ a{
   border: 0;
   outline: 0;
 }
-
+.btn:hover{
+  background: #304785; 
+}
 .dark-nav{
   background: #fff;
   transition: 0.5;
 }
-
-.btn.dark-btn{
-  background: #3d5aa9;
-  color: #fff;
-}
-
 /* Media Query */
 
 @media (max-width: 1200px) {

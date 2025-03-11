@@ -10,7 +10,7 @@
     position: relative;
 }
 .about-right{
-    flex-basis: 56%;
+    flex-basis: 100%;
 }
 .about-img{
     width: 100%;
@@ -25,17 +25,11 @@
     cursor: pointer;
 }
 
-.about h3{
-    font-weight: 600;
-    font-size: 16px;
-    color: #212EA0;
-}
-
 .about h2{
     font-size: 35px;
     color: #000f38;
     margin: 10px 0;
-    max-width: 400px;
+    max-width: 90%;
 }
 
 .about p{
