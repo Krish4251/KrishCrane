@@ -1,8 +1,8 @@
-import React from 'react'
-import './Contact.css'
-const Contact = () => {
+import React from "react";
+import "./Contact.css";
 
-    const [result, setResult] = React.useState("");
+const Contact = () => {
+  const [result, setResult] = React.useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -13,7 +13,7 @@ const Contact = () => {
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -29,33 +29,54 @@ const Contact = () => {
 
   return (
     <div className="contact-bg">
+      <div className="contact-title">
+        <p>Contact Us</p>
+        <h2>Get in Touch</h2>
+      </div>
       <div className="contact">
-      <div className="contact-col">
-            <h3>Send us a message</h3>
-            <p>Feel free to reach out through our contact form or find our contact information below. Your inquiries, project requirements, and feedback are valuable to us as we strive to deliver top-quality crane solutions and exceptional service.</p>
-            <ul>
-                <li>Contact@krishcranes.com</li>
-                <li>Phone: +1 123-456-7890</li>
-                <li>Address</li>
-            </ul>
+        <div className="contact-col">
+          <h3>Send us a message</h3>
+          <p>
+            Feel free to reach out through our contact form or find our contact
+            information below. Your inquiries, project requirements, and
+            feedback are valuable to us as we strive to deliver top-quality
+            crane solutions and exceptional service.
+          </p>
+          <ul>
+            <li>sales@krishcranes.com</li>
+            <li>Phone: +91 95748 79646</li>
+            <li>
+              Plot No. A1/419/1, G.I.D.C. Estate, Vitthal Udhyognagar, <br />
+              Anand, Gujarat, India.
+            </li>
+          </ul>
         </div>
         <div className="contact-col">
-            <form onSubmit={onSubmit}>
-                <label>Your name</label>
-                <input type="text" name='name' placeholder='Enter your name'/>
-                <label>Phone Number</label>
-                <input type="tel" name='phone' placeholder='Enter your phone number'/>
-                <label>Write your message here</label>
-                <textarea name='message' rows='6' placeholder='Write your message here' required></textarea>
-                <button type='submit' className='btn'>Submit now</button>
-            </form>
-            <span>{result}</span>
+          <form onSubmit={onSubmit}>
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Enter your name" />
+            <label>Contact</label>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Enter your phone number"
+            />
+            <label>Message</label>
+            <textarea
+              name="message"
+              rows="6"
+              placeholder="Write your message here"
+              required
+            ></textarea>
+            <button type="submit" className="btn">
+              Submit now
+            </button>
+          </form>
+          <span>{result}</span>
         </div>
-
       </div>
-        
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

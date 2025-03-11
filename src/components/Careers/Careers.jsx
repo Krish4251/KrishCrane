@@ -1,12 +1,8 @@
-import React from 'react'
-import './Careers.css'
+import React from "react";
+import "./Careers.css";
 
 const Careers = () => {
-  return (
-    <div>
-        
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default Careers
+export default Careers;
