@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import menu_icon from "../../assets/menu-icon.png";
-
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const toggleMenu = () => {
@@ -12,41 +11,27 @@ const Navbar = () => {
 
   return (
     <nav className="container dark-nav">
+
       <img src={logo} alt="" className="logo" />
 
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
-          <Link to="hero" smooth={true} offset={0} duration={500}>
-            Home
-          </Link>
+          <Link to="/HomePage">Home</Link>
         </li>
-
         <li>
-          <Link to="products" smooth={true} offset={-260} duration={500}>
-            Products
-          </Link>
+          <Link to="/ProductPage">Products</Link>
         </li>
-
         <li>
-          <Link to="services" smooth={true} offset={-150} duration={500}>
-            Services
-          </Link>
+          <Link to="/ServicePage">Services</Link>
         </li>
-
         <li>
-          <Link to="careers" smooth={true} offset={-150} duration={500}>
-            Careers
-          </Link>
+          <Link to="/CareerPage">Careers</Link>
         </li>
-
         <li>
-          <Link to="about" smooth={true} offset={-150} duration={500}>
-            About us
-          </Link>
+          <Link to="/AboutPage">About</Link>
         </li>
-
         <li>
-          <Link to="contact" smooth={true} offset={-260} duration={500}>
+          <Link to="/ContactPage">
             <button className="btn">Contact</button>
           </Link>
         </li>
