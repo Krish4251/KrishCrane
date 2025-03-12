@@ -39,7 +39,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path="/HomePage" Component={HomePage} />
+        <Route path="/" Component={HomePage} />
         <Route path="/ProductPage" Component={ProductPage} />
         <Route path="/ServicePage" Component={ServicePage} />
         <Route path="/CareerPage" Component={CareerPage} />
