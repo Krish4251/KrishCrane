@@ -9,14 +9,22 @@ const Navbar = () => {
     mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
   };
 
-  return (
-    <nav className="container dark-nav">
+  const [sticky, setSticky] = useState(false);
+  useEffect(()=>{
+    window.addEventListener('scroll',()=>{
+      window.scrollY > 50 ? setSticky(true) : setSticky(false);
+    })
+  },[])
 
-      <img src={logo} alt="" className="logo" />
+  return (
+    <nav className={`container ${sticky? 'dark-nav':''}`}>
+      <Link to="/">
+        <img src={logo} alt="" className="logo" />
+      </Link>
 
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
-          <Link to="/HomePage">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/ProductPage">Products</Link>
