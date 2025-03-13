@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import TitleDark from "../Title/TitleDark";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -29,10 +30,7 @@ const Contact = () => {
 
   return (
     <div className="contact-bg">
-      <div className="contact-title">
-        <p>Contact Us</p>
-        <h2>Get in Touch</h2>
-      </div>
+      <TitleDark subTitle="Contact Us" title="Get in Touch"/>
       <div className="contact">
         <div className="contact-col">
           <h3>Send us a message</h3>

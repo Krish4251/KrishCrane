@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="hero container hero-section">
@@ -11,7 +11,9 @@ const Hero = () => {
           Performance.
         </h1>
         <p>Leading the Way in Crane Manufacturing</p>
-        <button className="btn">Explore More</button>
+        <Link to="/AboutPage">
+            <button className="btn">Explore More</button>
+        </Link>
       </div>
     </div>
   );

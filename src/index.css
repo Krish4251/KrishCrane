@@ -46,10 +46,6 @@ a {
 .dark-btn:hover {
   background: #aabdf7;
 }
-.dark-nav {
-  background: #1e3c8d;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-}
 
 .error-page{
   position: absolute;

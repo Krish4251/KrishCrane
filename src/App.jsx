@@ -24,11 +24,11 @@ const HomePage = () => {
       <Hero />
       <div className="container">
         <About />
-        <Title subTitle="Our Products" title="What We Offer" />
+      </div>
         <Products />
+      
         <Title subTitle="Our Services" title="Repair & Maintenance" />
         <Services />
-      </div>
       <Contact />
       <Footer />
     </>

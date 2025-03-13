@@ -3,6 +3,7 @@ import "./ContactPage.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import Placeholder from "../../assets/PageUC.png";
+
 const ContactPage = () => {
   return (
     <div>
