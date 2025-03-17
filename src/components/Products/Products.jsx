@@ -21,7 +21,13 @@ const productData = [
     id: 1,
     name: "EOT Crane",
     description:
-      "At Krish Crane, our EOT (Electric Overhead Traveling) Crane is engineered to deliver unmatched efficiency and durability in heavy-duty lifting operations. Designed for industrial environments such as manufacturing plants, warehouses, and shipyards, our EOT cranes ensure seamless material handling with precision and safety. With a robust steel structure, high-performance motors, and advanced control systems, these cranes maximize productivity while minimizing downtime. With a commitment to quality and innovation, Krish Crane offers customized EOT crane solutions tailored to your specific needs. Our cranes come in single and double girder configurations, equipped with features like variable speed control, anti-sway technology, and remote operation for enhanced efficiency. Whether you need a standard lifting solution or a custom-built crane for specialized applications, our EOT cranes provide the power, reliability, and safety you can trust.",
+      "Our Electric Overhead Traveling Cranes offer unmatched efficiency and durability for industrial lifting operations. Designed with high-performance motors, robust steel structures, and advanced control systems ensuring precise, reliable, and safe material handling, these cranes optimize workflow and minimize downtime, making them ideal for heavy-duty applications.",
+    highlights: [
+      "High Load Capacity",
+      "Precision Control Systems",
+      "Single & Double Girder Configurations",
+      "Remote Operation & Anti-Sway Tech",
+    ],
     baseImg: Product_1,
     hoverImg: productHover_1,
   },
@@ -29,7 +35,13 @@ const productData = [
     id: 2,
     name: "Crane Hoist",
     description:
-      "The Crane Hoist from Krish Crane is a critical component designed for precision lifting across various industries. Whether integrated into an overhead crane system or used as a standalone lifting mechanism, our hoists provide smooth, efficient, and reliable performance. Engineered with cutting-edge technology, they feature powerful motors, high-load capacity, and user-friendly controls to simplify material handling operations. FAt Krish Crane, we offer both electric and manual hoists, ensuring that our customers get the perfect solution for their lifting needs. Our electric hoists come with advanced features such as overload protection, automatic braking, and remote operation for enhanced safety. Built for durability and seamless performance, our crane hoists are the ideal choice for factories, construction sites, and warehouses looking for dependable and high-efficiency lifting solutions.",
+      "Our Crane Hoists are engineered for smooth, efficient, and safe lifting operations. Integrated with an overhead crane, they feature powerful motors, user-friendly controls, and advanced safety mechanisms. Built to withstand rigorous industrial use, they ensure superior performance with reduced maintenance, ensuring reliability in even the most demanding environments.",
+    highlights: [
+      "Electric & Manual Options",
+      "Overload Protection",
+      "Automatic Braking System",
+      "High Load-Bearing Capacity",
+    ],
     baseImg: Product_2,
     hoverImg: productHover_2,
   },
@@ -37,31 +49,56 @@ const productData = [
     id: 3,
     name: "Goliath Crane",
     description:
-      "The Goliath Crane, also known as a gantry crane, is one of Krish Crane’s flagship lifting solutions for large-scale industrial applications. Designed for shipyards, construction projects, and heavy manufacturing, our Goliath cranes offer unmatched strength and stability. Unlike overhead cranes, these cranes are supported by ground-running legs, providing enhanced mobility and adaptability to different work environments. Our Goliath cranes are available in single and double girder configurations, capable of handling extremely heavy loads with precision. Equipped with weather-resistant components, radio remote control, and automated lifting features, they ensure safe and efficient operations in outdoor and indoor environments alike. Whether you need a standard design or a custom-built gantry crane, Krish Crane is committed to delivering the best lifting technology to meet your specific requirements.",
+      "Goliath Crane is a powerful gantry crane designed for heavy industrial applications, such as shipyards and construction sites. Its ground-supported structure enhances mobility while maintaining excellent lifting performance. With advanced load distribution systems and customizable span lengths, it provides unparalleled efficiency for large-scale lifting needs while ensuring operational safety and stability.",
+    highlights: [
+      "Single & Double Girder Models",
+      "High Strength & Stability",
+      "Weather-Resistant Components",
+      "Remote & Automated Control",
+    ],
     baseImg: Product_3,
     hoverImg: productHover_3,
   },
   {
     id: 4,
-    name: "Jib Crane",
+    name: "Semi-Goliath Crane",
     description:
-      "The Jib Crane from Krish Crane is a compact and highly versatile lifting solution designed for precise material handling. With its pivoting arm mechanism, it allows operators to lift and position loads within a defined working radius, making it ideal for workshops, assembly lines, and warehouses. Our Jib cranes are built with high-strength materials and advanced load-bearing technology to ensure long-term durability and efficiency. Krish Crane offers various configurations, including wall-mounted, freestanding, and articulating models, each designed to cater to different operational needs. Whether you require a manual or electric hoist integration, our Jib cranes provide effortless lifting, smooth rotation, and enhanced safety features. Their space-saving design makes them an economical and efficient alternative to larger crane systems, ensuring seamless operation for various industries.",
+      "Semi-Goliath Cranes provide an optimal mix of overhead and gantry cranes, making them perfect for factories and workshops requiring flexible and high-capacity lifting solutions. Their unique design offers a blend of mobility and strength, maximizing space efficiency while maintaining high load-bearing capabilities. Engineered for ease of installation and maintenance.",
+    highlights: [
+      "Single & Double Girder Options",
+      "Partial Ground & Overhead Support",
+      "Cost-Effective & Space-Saving",
+      "Advanced Safety Features",
+    ],
     baseImg: Product_4,
     hoverImg: productHover_4,
   },
   {
     id: 5,
-    name: "Semi-Goliath Crane",
+    name: "Jib Crane",
     description:
-      "At Krish Crane, our Semi-Goliath Crane is a versatile and space-efficient lifting solution designed to provide the benefits of both gantry and overhead cranes. With one side supported by a ground-mounted rail and the other side running on an elevated runway, this crane offers enhanced flexibility for material handling in factories, workshops, and warehouses. It is ideal for industries where a full gantry crane is not feasible, yet high lifting capacity and mobility are required. Built with precision engineering and durable materials, our Semi-Goliath cranes ensure smooth operation, high load-bearing capacity, and superior safety features. Available in single and double girder configurations, they can be customized to meet specific operational needs. Advanced control systems, radio remote operation, and automated lifting functions make our Semi-Goliath cranes efficient, reliable, and cost-effective. Whether handling heavy machinery, raw materials, or finished products, Krish Crane delivers cutting-edge lifting solutions that optimize workflow and productivity.",
+      "Jib Cranes offer compact, space-saving lifting solutions with a pivoting arm mechanism for easy load handling. They are ideal for workshops, assembly lines, and warehouses. Designed with high-precision bearings and smooth rotation. Our Jib Cranes enhance productivity while minimizing operator fatigue, making material handling safer and more streamlined.",
+    highlights: [
+      "Wall-Mounted & Freestanding Options",
+      "Smooth 360° Rotation",
+      "Customizable Load Capacities",
+      "Durable & Efficient Design",
+    ],
     baseImg: Product_5,
     hoverImg: productHover_5,
   },
+
   {
     id: 6,
-    name: "New Product",
+    name: "Spares",
     description:
-      "IAs a pioneer in lifting technology, Krish Crane is proud to introduce our latest innovation in material handling. Designed with cutting-edge engineering, our new product integrates advanced automation, intelligent load management, and energy-efficient operation to redefine lifting efficiency. Whether for construction, logistics, or industrial manufacturing, this next-generation lifting solution is built to enhance productivity and safety. Featuring AI-powered load balancing, real-time monitoring, and smart safety mechanisms, our newest offering optimizes operations while reducing risks. With a user-friendly interface, customizable configurations, and seamless integration with existing crane systems, it stands as a testament to Krish Crane’s commitment to innovation, reliability, and customer satisfaction. Experience the future of lifting technology with Krish Crane..",
+      "We provide a comprehensive range of high-quality spare parts to ensure uninterrupted crane operation and longevity. From precision-engineered wire ropes and motorized trolleys to control panels and safety mechanisms, our spare parts are designed for optimal compatibility and performance. Regular availability and strict quality checks make our spare parts a reliable choice for maintenance and repairs.",
+    highlights: [
+      "High-Quality & Durable Components",
+      "OEM-Compatible Spares",
+      "Fast Availability & Delivery",
+      "Ensuring Long-Term Crane Efficiency",
+    ],
     baseImg: Product_6,
     hoverImg: productHover_6,
   },
@@ -91,14 +128,14 @@ const Products = () => {
   // Rotate products every 5 seconds (if not paused)
   useEffect(() => {
     if (!isPaused) {
-      const interval = setInterval(nextProduct, 5000);
+      const interval = setInterval(nextProduct, 10000);
       return () => clearInterval(interval);
     }
   }, [isPaused]);
 
   return (
     <div className="products">
-      <Title subTitle="Our Products" title="What We Offer" />
+      <Title subTitle="Product Portfolio" title="What We Offer" />
 
       <div className="products-container">
         {/* Rotating Product Wheel */}
@@ -132,16 +169,27 @@ const Products = () => {
           })}
         </div>
 
-        {/* Product Details (Title & Description) */}
+        {/* Product Details (Title, Description & Highlights) */}
         <div className="product-details">
           <div className="controls">
             <button onClick={prevProduct}>❮</button>
             <button onClick={togglePause}>{isPaused ? "▶" : "❚❚"}</button>
             <button onClick={nextProduct}>❯</button>
           </div>
-          <h2>{productData[currentIndex].name}</h2>
-          <p>{productData[currentIndex].description}</p>
-          <h6><Link to="/ProductPage">Go to Products</Link></h6>
+          <div>
+            <h2>{productData[currentIndex].name}</h2>
+            <p>{productData[currentIndex].description}</p>
+          </div>
+          <div className="product-highlights">
+            {productData[currentIndex].highlights.map((highlight, index) => (
+              <div key={index} className="highlight-card">
+                {highlight}
+              </div>
+            ))}
+          </div>
+          <h6>
+            <Link to="/ProductPage">View all Products</Link>
+          </h6>
         </div>
       </div>
     </div>
