@@ -30,7 +30,7 @@ const Contact = () => {
 
   return (
     <div className="contact-bg">
-      <TitleDark subTitle="Contact Us" title="Get in Touch"/>
+      <TitleDark subTitle="Contact Us" title="Get in Touch" />
       <div className="contact">
         <div className="contact-col">
           <h3>Send us a message</h3>
@@ -41,7 +41,7 @@ const Contact = () => {
             crane solutions and exceptional service.
           </p>
           <ul>
-            <li>sales@krishcranes.com</li>
+            <li>Email: sales@krishcranes.com</li>
             <li>Phone: +91 95748 79646</li>
             <li>
               Plot No. A1/419/1, G.I.D.C. Estate, Vitthal Udhyognagar, <br />
@@ -67,7 +67,7 @@ const Contact = () => {
               required
             ></textarea>
             <button type="submit" className="btn">
-              Submit now
+              Send
             </button>
           </form>
           <span>{result}</span>

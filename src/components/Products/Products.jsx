@@ -161,9 +161,6 @@ const Products = () => {
                   alt={product.name}
                 />
                 <img className="hover-image" src={product.hoverImg} alt="" />
-                <div className="caption">
-                  <p>{product.name}</p>
-                </div>
               </div>
             );
           })}
